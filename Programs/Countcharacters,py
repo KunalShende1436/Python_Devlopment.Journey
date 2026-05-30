@@ -1,0 +1,6 @@
+# Count Chracters in String
+str=input("Enter a string: ")
+count=0
+for i in str:
+    count+=1
+print(f"The number of characters in the string is: {count}")
