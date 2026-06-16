@@ -1,0 +1,8 @@
+import math
+
+
+def area_of_circle(radius):
+    return math.pi * radius**2
+
+
+print(f"Area of Circle = {area_of_circle(int(input('Enter Radius of Circle = '))):.2f}")
